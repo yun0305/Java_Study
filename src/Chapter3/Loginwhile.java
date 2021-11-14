@@ -41,7 +41,7 @@ public class Loginwhile {
 			break;
 		}
 		
-	}while(logresult < 3);
+	}while(logresult != 3);
 
 	}
 
