@@ -15,11 +15,11 @@ public class FlowTest22 {
 			System.out.println("수도를 입력하세요");
 			inString = scan.next();
 			if(answer.equals(inString)) {
-				System.out.println("정답입니다");
+				System.out.println("정답입니다.");
 				break;
 			}
 			else {
-				System.out.println("틀렸습니다");
+				System.out.println("틀렸습니다.");
 			}
 			
 		}while(true);
