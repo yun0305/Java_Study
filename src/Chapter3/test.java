@@ -6,7 +6,7 @@ public class test {
 
 	
 
-		System.out.println("yn");
+		System.out.println("yun");
 
 		for(int i = 0; i<=5; i++) {
 		System.out.println(i);
