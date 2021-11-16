@@ -6,7 +6,7 @@ public class test {
 
 	
 
-		System.out.println("hello");
+		System.out.println("pass");
 
 		for(int i = 0; i<=5; i++) {
 		System.out.println(i);
