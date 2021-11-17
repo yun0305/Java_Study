@@ -13,7 +13,7 @@ public class FlowTest16 {
 		}
 		num=0;// num을 다시 초기화 시켜줌
 		for(int x=1;x<=5;x++) {
-			for(int y=4;y>=x;y--) {//1이 들어가면 y는 5니까 첫줄에 num이 5번돈다 1 2 3 4 5 그다음엔 y가 1이 감소되고 y는 4가된다 그럼 2번째 줄은 6 7 8 9 가 출력이된다 
+			for(int y=4;y>=x;y--) {//1이 들어가면 y는 4니까 첫줄에 num이 5번돈다 1 2 3 4 5 그다음엔 y가 1이 감소되고 y는 4가된다 그럼 2번째 줄은 6 7 8 9 가 출력이된다 
 				System.out.print(++num+"\t");
 			}
 			System.out.println();

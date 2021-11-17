@@ -8,7 +8,7 @@ public class OperationTest5 {
 		
 		//++
 		result = var_inc++;//후증감을 어떤 변수에 할당 시킬때는 후 증감 값은 증감 시키지 안고 할당한다
-		System.out.println(result);//var_inc값인 1을 먼저 result 변수에 할당하고 var_inc 값을 하나 증감시킨다
+		System.out.println(result);//var_inc값인 0을 먼저 result 변수에 할당하고 var_inc 값을 하나 증감시킨다
 		System.out.println(var_inc);
 		
 		result = ++var_inc;//선증감 현재 줄부터 증감 시켜줌
