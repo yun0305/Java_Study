@@ -11,6 +11,7 @@ public class FlowTest22 {
 		
 		
 		do {
+			
 			System.out.println("대한민국 수도를 입력하세요");
 			System.out.println("수도를 입력하세요");
 			inString = scan.next();
