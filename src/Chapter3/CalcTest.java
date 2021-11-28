@@ -47,7 +47,7 @@ public class CalcTest {
 		else if(operation.equals("-")) {
 			result = num1-num2;
 		}
-		else if(operation.equals("X")) {
+		else if(operation.equals("X")) {//*이걸로 할경우 오류 발생
 			result = num1*num2;
 		}
 		else if(operation.equals("/")) {

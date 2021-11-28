@@ -35,7 +35,7 @@ public class DayCountOfMonth {
 	
 	
 	if(rigthMonth) {
-		System.out.println(year+"년 "+month+"월은 "+daycount+"입니다");
+		System.out.println(year+"년 "+month+"월은 "+daycount+"일 까지입니다");
 	}
 	else {
 		System.out.println("존재하지 않는 달 입니다");

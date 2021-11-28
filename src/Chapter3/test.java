@@ -11,9 +11,15 @@ public class test {
 		*/
 		
 		//ArgsTest
-		for(int i=1; i<9; i++){
-            if(i==3) continue;
+		for(int i=1; i<9; i++){//반복문은 거짓이 되면 돌지 않는다
+            if(i==3) { //3에서 멈추고 출력은 하지 않는다
+            	break;
+            }
+            if(i==3) {//3을 없애준다 나머지 숫자들은 나오도록 해준다
+            	continue;
+            }
             System.out.println(i);
+            
         }
  
         System.out.println("반복문 끝!");
