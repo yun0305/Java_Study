@@ -8,8 +8,8 @@ public class FlowTest13 {
 		
 		Scanner scan = new Scanner(System.in);
 		int num = scan.nextInt();
-		int sum = 0;
 		
+		int sum = 0;
 		String exp = "";
 		
 		for(int i=0;i<=num;i++) {

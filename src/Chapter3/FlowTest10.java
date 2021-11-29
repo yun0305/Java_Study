@@ -32,7 +32,12 @@ public class FlowTest10 {
 		String exp = "";
 		
 		for(int i=0;i<=50;i++) {
-			sum += i;
+			sum += i;//=는 초기화 해줘라 +=는 계속 추가 해줘라 
+			//예시 y에다가 i를 넣어주니까 2가 사라지고 1로 초기화된다
+			/*int i = 1;
+			int y = 2;
+			 y=i;
+			 System.out.println(y);*/
 			exp += (i==0)? ""+i:"+"+i;
 			
 		}
