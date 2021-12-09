@@ -37,7 +37,7 @@ public class test {
 			i++;
 		}
 		System.out.println(exp);*/
-    }
+    
 
 
 		
@@ -47,7 +47,6 @@ public class test {
 		//}
 	
 	
-	
 	}
 
-
+}

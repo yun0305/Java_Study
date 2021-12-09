@@ -8,7 +8,7 @@ public class OperationTest9 {
 		Scanner scan = new Scanner(System.in);
 		int num = scan.nextInt();
 		
-		String msg = (num%2==0)?"È¦¼ö":"Â¦¼ö";
+		String msg = (num%2==0)?"Â¦¼ö":"È¦¼ö";
 		System.out.println(msg);
 		
 		
