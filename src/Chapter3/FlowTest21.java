@@ -8,13 +8,11 @@ public class FlowTest21 {
 		Scanner scan = new Scanner(System.in);
 		int number = (int)(Math.random()*100)+1;//math.random 메소드는 double형으로 0.0에서 1.0사이의 난수를 산출해준다 100을 곱해주면 0부터 99 까지의 수를 반환하기때문에 100에 맞출고 1을 더한것이다
 												//while문 밖에 있으니까 한번 랜덤으로 정해준다
-			int innumber = 0;//사용자가 입력한 값을 정수 형태로 저장할 inNumber 변수의 값을 0으로 초기화시킨 부분이다
-						 // 초기화를 안해주면 무한반복이 일어난다
 		
 		do {
 			System.out.println("숫자를 입력하세요");
 			System.out.println("숫자 입력");
-			innumber = scan.nextInt();
+			int innumber = scan.nextInt();//여기서 선언및 초기화를 시켜주지 않으면 무한반복이 일어난다 왜냐하면 숫자를 입력해주세요에서 숫자를 입력할 부분이 사라지기 때문이다
 			
 			if(innumber == number) {
 				System.out.println("맞췄습니다");

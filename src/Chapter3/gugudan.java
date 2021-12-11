@@ -46,7 +46,8 @@ public class gugudan {
 
 	public static void main(String[] args) {
 		
-		FlowTest19();
+		//FlowTest19();
+		gugudan();
 
 	}
 
