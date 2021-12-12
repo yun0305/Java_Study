@@ -14,8 +14,8 @@ public class ArrayTest4 {
 			System.out.println("이름:");
 			String name = scan.next();
 			
-			for(int i=0;i<names.length;i++) {
-				if(name.equals(names[i])) {
+			for(int i=0;i<names.length;i++) { 
+				if(name.equals(names[i])) {//if문은 else가 없어도 돌다가 아무것도 맞는게 없으면 그냥 if문을 종료시킨다
 					System.out.println("찾으시는 이름은"+i+"번방에 있습니다");
 					break aaa;
 				}
