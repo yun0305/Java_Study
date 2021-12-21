@@ -11,7 +11,6 @@ public class Loginwhile {
 	int logresult = 0;
 	
 	do {
-		System.out.println();
 		System.out.println("아이디를 입력하세요");
 		String id = scan.next();
 		System.out.println("비밀번호를 입력하세요");

@@ -20,7 +20,8 @@ public class ArrayTest4 {
 					break aaa;
 				}
 				/*else  {// else를 넣게되면 홍길동(처음 0번과 같은)외에 다른 이름들은 첫트에서(i가 0일때부터) 입구컷 당하기 때문에 System.out.println("해당이름은 없습니다");이 출력된다
-					System.out.println("해당이름은 없습니다");*/
+					System.out.println("해당이름은 없습니다");
+					}*/
 				
 				
 			}
