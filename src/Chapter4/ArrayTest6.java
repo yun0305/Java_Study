@@ -1,5 +1,7 @@
 package Chapter4;
 
+import java.util.Arrays;
+
 public class ArrayTest6 {
 
 	public static void main(String[] args) {
@@ -18,7 +20,10 @@ public class ArrayTest6 {
 		for(String str : newArray) {
 			System.out.println(str);
 		}
-				
+		/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		String test[] = new String[] {"1","2","3","4","5"};
+		
+		System.out.println(Arrays.toString(test));
 		
 	}
 
