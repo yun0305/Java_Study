@@ -15,7 +15,7 @@ public class ArrayTest6 {
 		//System.arraycopy(cities, 2(배열방번호0부터), newArray, 2(배열방번호0부터), 3(배열의 갯수1부터));
 		
 		System.arraycopy(cities, 0, newArray, 0, cities.length);
-		System.arraycopy(nation, 0, newArray, cities.length, nation.length);
+		//System.arraycopy(nation, 0, newArray, cities.length, nation.length);
 		
 		for(String str : newArray) {
 			System.out.println(str);
