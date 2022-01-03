@@ -3,7 +3,7 @@ package Chapter2;
 public class OperationTest5 {
 
 	public static void main(String[] args) {
-		int var_inc =0;//0으로 초기화 안해놓으면 증감이 안됨
+		int var_inc = 0;//0으로 초기화 안해놓으면 증감이 안됨 왜냐면 값이 안들어가 있으니까
 		int result = 0;
 		
 		//++
