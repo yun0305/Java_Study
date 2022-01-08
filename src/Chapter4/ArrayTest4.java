@@ -67,9 +67,35 @@ public class ArrayTest4 {
 			
 		}while(true);
 	}
+	
+	public static void test() {
+		Scanner scan = new Scanner(System.in);
+		String name[] = new String[] {"홍길동","전우치","이도","세종대왕","이민지","이나라","이민수"};
+		
+		stop:do {
+			System.out.println("이름을 입력하십시오");
+			System.out.println("이름");
+			String names = scan.next();
+			
+			for(int i=0;i<name.length;i++) {
+				if(names.equals(name[i])) {
+					System.out.println("찾으시는 이름은"+name[i]+"입니다");
+					System.out.println("찾으시는 이름은"+i+"번방에 있습니다");
+					break stop;
+				}
+				
+				//System.out.println("찾으시는 이름은 없습니다 다시 입력해 주십시오"); for 문에 만들어주면 for문에서 반복되기 때문에 for문 밖에다 만들어주자
+			}
+			System.out.println("찾으시는 이름은 없습니다 다시 입력해 주십시오");
+		}while(true);
+		
+		
+	}
 	public static void main(String[] args) {
-		mytest();
+		//mytest();
 		//booktest();
+		test();
+		
 	}
 
 }

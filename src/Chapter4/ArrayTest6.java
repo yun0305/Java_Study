@@ -3,8 +3,8 @@ package Chapter4;
 import java.util.Arrays;
 
 public class ArrayTest6 {
-
-	public static void main(String[] args) {
+	
+	public static void arraytest6() {
 		String cities[] = new String[] {"서울","대구","춘천","울산","광주","천안"};
 		String nation[] = new String[] {"대한민국","미국","영국","일본","프랑스"};
 		
@@ -24,7 +24,22 @@ public class ArrayTest6 {
 		String test[] = new String[] {"1","2","3","4","5"};
 		
 		System.out.println(Arrays.toString(test));
+	}
+	public static void test() {
+		String citis[] = new String[] {"서울","대구","부산","일산","인천"};
+		String nation[] = new String[] {"대한민국","일본","중국","미국","독일"};
 		
+		String result[] = new String[citis.length+nation.length];
+		
+		System.arraycopy(citis,0,result,5,5);
+		for(String full : result) {
+			System.out.println(full);
+		}
+		
+	}
+
+	public static void main(String[] args) {
+			test();
 	}
 
 }

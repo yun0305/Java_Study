@@ -29,7 +29,7 @@ public class test {
 		System.out.println(recarray[i][j]);
 		*/
 		
-		String array1[] = new String[] {"qq","ww","ee","rr"};
+		/*String array1[] = new String[] {"qq","ww","ee","rr"};
 		String array2[] = new String[] {"aa","ss","dd","ff"};
 		String array3[] = new String[array1.length+array2.length];
 		
@@ -37,7 +37,18 @@ public class test {
 		
 		for(String array:array3) {
 			System.out.println(array);
+		}*/
+		
+		/*String array[][] = new String[2][4];
+		System.out.println(array.length);
+		System.out.println(array[1].length);*/
+		
+		for(int i=0;i<5;i++) {
+			//System.out.println(i);
+			System.out.print(i);
 		}
+			
+		
 		
 	}
 

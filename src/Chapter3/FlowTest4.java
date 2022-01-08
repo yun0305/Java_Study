@@ -3,7 +3,8 @@ package Chapter3;
 public class FlowTest4 {
 
 	public static void main(String[] args) {
-		
+	//Scanner scan = new Scanner(System.in);
+		//int age = scan.nextInt();
 		int age = Integer.parseInt(args[0]);
 		
 		String generation;
