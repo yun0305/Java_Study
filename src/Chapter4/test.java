@@ -43,11 +43,29 @@ public class test {
 		System.out.println(array.length);
 		System.out.println(array[1].length);*/
 		
-		for(int i=0;i<5;i++) {
+		/*for(int i=0;i<5;i++) {
 			//System.out.println(i);
 			System.out.print(i);
-		}
+		}*/
+		
+		/*int random = (int)(Math.random()*5)+1;
+		
+		stop:do {
+		for(int i=0;i<random;i++) {
+			System.out.println(random);
+			System.out.println(random);
 			
+			break stop;
+		}
+		}while(true);
+		*/
+		
+		for(int j=0;j<1;j++) {
+			
+			System.out.println(j);
+			
+		}
+		
 		
 		
 	}
