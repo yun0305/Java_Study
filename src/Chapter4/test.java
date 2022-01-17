@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class test {
 
 	public static void main(String[] args) {
-		
+		//////////////////////////////////////////////
 		/*int[][] array = {{1}, {2,3}, {4,5,6}};// 2차원 배열의 방개수는 가변적으로 만들수 있다
 	    //위와 같이 선언할 경우 array6[0][0] 는 1이다. array6[1][0]은 2이다. 
 		System.out.println(array[1][1]);
@@ -21,14 +21,14 @@ public class test {
 		
 		int array3[][] = new int[2][7];
 	*/
-		
+		/////////////////////////////////////////////
 		/*int recarray[][] = new int[5][5];
 		int i=0;
 		int j=0;
 		recarray[i][j] = 1; 
 		System.out.println(recarray[i][j]);
 		*/
-		
+		////////////////////////////////////////
 		/*String array1[] = new String[] {"qq","ww","ee","rr"};
 		String array2[] = new String[] {"aa","ss","dd","ff"};
 		String array3[] = new String[array1.length+array2.length];
@@ -38,7 +38,7 @@ public class test {
 		for(String array:array3) {
 			System.out.println(array);
 		}*/
-		
+		////////////////////////////////////////
 		/*String array[][] = new String[2][4];
 		System.out.println(array.length);
 		System.out.println(array[1].length);*/
@@ -47,7 +47,7 @@ public class test {
 			//System.out.println(i);
 			System.out.print(i);
 		}*/
-		
+		//////////////////////////////////////////
 		/*int random = (int)(Math.random()*5)+1;
 		
 		stop:do {
@@ -59,14 +59,16 @@ public class test {
 		}
 		}while(true);
 		*/
-		
-		for(int j=0;j<1;j++) {
-			
-			System.out.println(j);
-			
+		///////////////////////중요##########
+		int teamindex = 0;
+		while(teamindex<4) {
+			teamindex++;
+		//	System.out.println(teamindex);
 		}
 		
-		
+		for(int i=0;i<4;i++) {
+			System.out.println(i);
+		}
 		
 	}
 
