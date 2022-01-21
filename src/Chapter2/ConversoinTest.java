@@ -33,7 +33,7 @@ public class ConversoinTest {
 		System.out.println("var_int_result1 = "+var_int_result1);
 		
 		//연산 시 피연산자 중 보다 큰 타입으로 형 변환 후 연산됨.
-		int var_int3=100;
+		int var_int3 = 100;
 		long var_long1 = 100;
 		long var_long_result1 = var_int3 + var_long1;
 		System.out.println("var_long_result1 = "+ var_long_result1);

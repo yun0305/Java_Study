@@ -1,5 +1,7 @@
 package Chapter3;
 
+import java.util.Scanner;
+
 public class CalcTest {
 
 	public static void main(String[] args) {
@@ -34,37 +36,42 @@ public class CalcTest {
 		else {
 			System.out.println("연산자가 잘못되었습니다");
 		}*/
-		int num1 = Integer.parseInt(args[0]);
-		String operation = args[1];
-		int num2 = Integer.parseInt(args[2]);
-		boolean rightoperation = true;
+		Scanner scan = new Scanner(System.in);
+		
 		int result = 0;
+		boolean rigthoperation = true;
+		do {
+			int num1 = scan.nextInt();
+			String operation = scan.next();
+			int num3 = scan.nextInt();
+		
+		
 		
 		if(operation.equals("+")) {
-			result = num1+num2;
+			result = num1+num3;
 		}
 		else if(operation.equals("-")) {
-			result = num1-num2;
+			result = num1-num3;
 		}
 		else if(operation.equals("X")) {
-			result = num1*num2;
+			result = num1*num3;
 		}
-		else if(operation.equals("/")){
-			result = num1/num2;
+		else if(operation.equals("/")) {
+			result = num1/num3;
 		}
 		else {
-			rightoperation = false;
+			rigthoperation = false;
 		}
+	
 		
-		if(rightoperation) {
-			System.out.println(result);
-		}
-		else {
-			System.out.println("연산자가 잘못 되었습니다");
-		}
+		if(rigthoperation) {
+				System.out.println(num1+operation+num3+"="+result );
 			}
-		
+			 else {
+				 System.out.println("연산자가 잘못되었습니다");
 	}
-
+		}while(!rigthoperation);
+	}
+}
 
 

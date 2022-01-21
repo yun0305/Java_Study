@@ -46,10 +46,14 @@ public class FlowTest10 {
 
 	public static void main(String[] args) {
 		
-		//FlowTest17();
-		//FlowTest10();
-		FlowTest18();
+		int num1 = 0;
+		String exq = "";
 		
+		for(int i=0;i<=50;i++) {
+			num1 += i;
+			exq += (num1==0)? ""+i:"+"+i;
+		}
+		System.out.println(exq+"="+num1);
 	}
 
 }

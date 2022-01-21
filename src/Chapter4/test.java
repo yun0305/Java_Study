@@ -60,7 +60,7 @@ public class test {
 		}while(true);
 		*/
 		///////////////////////Áß¿ä##########
-		int teamindex = 0;
+		/*int teamindex = 0;
 		while(teamindex<4) {
 			teamindex++;
 		//	System.out.println(teamindex);
@@ -69,7 +69,12 @@ public class test {
 		for(int i=0;i<4;i++) {
 			System.out.println(i);
 		}
-		
+		*/
+		 
+		 while(true) {
+	     int random = (int)(Math.random()*25)+5;
+		 System.out.println(random);
+		 }
 	}
 
 }

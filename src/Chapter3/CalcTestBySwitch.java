@@ -44,7 +44,7 @@ public class CalcTestBySwitch {
 		
 		switch(operation) {
 		case "+":
-			result = num1+num2;
+			result=num1+num2;
 			break;
 		case "-":
 			result = num1-num2;
@@ -54,9 +54,10 @@ public class CalcTestBySwitch {
 			break;
 		case "/":
 			result = num1/num2;
-			break;	
-		default:
+			break;
+			default:
 				rightoperation = false;
+				break;
 					
 		}
 		
