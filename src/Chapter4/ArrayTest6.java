@@ -31,7 +31,7 @@ public class ArrayTest6 {
 		
 		String result[] = new String[citis.length+nation.length];
 		
-		System.arraycopy(citis,0,result,5,5);
+		System.arraycopy(nation,0,result,7,3);
 		for(String full : result) {
 			System.out.println(full);
 		}

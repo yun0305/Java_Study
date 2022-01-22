@@ -45,7 +45,9 @@ public class test {
 		//for(int i = 0; i<=5; i++) {
 		//System.out.println(i);
 		//}
-	
+		
+		double num = 1;
+		System.out.println(num%5);
 	
 	}
 

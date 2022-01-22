@@ -4,8 +4,8 @@ public class ArrayTest1 {
 
 	public static void main(String[] args) {
 		//배열 선언
-		int[] ages;
-		String[] names;
+		int ages[];
+		String names[];
 		
 		
 		//배열 객체 생성

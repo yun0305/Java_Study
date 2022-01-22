@@ -41,11 +41,30 @@ int recarray[][] = new int[5][5];
 		}
 		
 	}
+	public static void test() {
+		int ractangleArray[][] = new int[5][5];
+		
 	
+		for(int i=0;i<ractangleArray.length;i++) {
+			for(int j=0;j<ractangleArray[i].length;j++) {
+				if(i==0||i==ractangleArray.length-1||j==0||j==ractangleArray[i].length-1||i==j) {
+					ractangleArray[i][j] = 1;
+				}
+			}
+		}
+		for(int i=0;i<ractangleArray.length;i++) {
+			for(int j=0;j<ractangleArray[i].length;j++) {
+				System.out.print(ractangleArray[i][j]);
+			}
+			System.out.println();
+		}
+		
+	}
 	
 	public static void main(String[] args) {
-		myArrayTest9();
-		
+		//myArrayTest9();
+		test();
+		//arrayTest8();
 	}
 
 }

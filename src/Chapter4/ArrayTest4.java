@@ -49,7 +49,7 @@ public class ArrayTest4 {
 			System.out.println("이름:");
 			String name = scan.next();
 			
-			int index = -1;//-1인 이유는 0부터 7까지 겹치지 않기 위해서
+			int index = -1;//-1인 이유는 0부터 7까지 겹치지 않기 위해서(59번줄을 위해서)
 			
 			for(int i=0;i<names.length;i++) {
 				if(name.equals(names[i])) {
@@ -70,23 +70,21 @@ public class ArrayTest4 {
 	
 	public static void test() {
 		Scanner scan = new Scanner(System.in);
-		String name[] = new String[] {"홍길동","전우치","이도","세종대왕","이민지","이나라","이민수"};
+		String names[] = new String[] {"이도","세종대왕","홍길동","전우치","정도대왕","영조","도요토미"};
 		
 		stop:do {
-			System.out.println("이름을 입력하십시오");
-			System.out.println("이름");
-			String names = scan.next();
-			
-			for(int i=0;i<name.length;i++) {
-				if(names.equals(name[i])) {
-					System.out.println("찾으시는 이름은"+name[i]+"입니다");
+			System.out.print("찾으시는 이름을 입력하세요 :");
+			String name = scan.next();
+			for(int i=0;i<names.length;i++) {
+				if(name.equals(names[i])) {
 					System.out.println("찾으시는 이름은"+i+"번방에 있습니다");
+					System.out.println("찾으시는 이름은 "+names[i]+"입니다");
 					break stop;
 				}
 				
-				//System.out.println("찾으시는 이름은 없습니다 다시 입력해 주십시오"); for 문에 만들어주면 for문에서 반복되기 때문에 for문 밖에다 만들어주자
 			}
-			System.out.println("찾으시는 이름은 없습니다 다시 입력해 주십시오");
+			System.out.println("찾으시는 이름은 존재하지 않습니다");
+			
 		}while(true);
 		
 		
