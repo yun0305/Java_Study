@@ -69,12 +69,73 @@ public class test {
 		for(int i=0;i<4;i++) {
 			System.out.println(i);
 		}
-		*/
-		 
-		 while(true) {
-	     int random = (int)(Math.random()*25)+5;
-		 System.out.println(random);
-		 }
+		*//*String member[] = new String[] {"ÆÀÀå1","ÆÀÀå2","ÆÀÀå3","ÆÀÀå4","ÆÀÀå5","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19"
+				,"20","21","22","23","24","25"};
+		String oldMember[] = new String[25];
+		int index =1;
+		int teamIndex = 0;//67¹ø for¹®ÀÌ ³¡³ª¸é 
+		int oldMemberIndex = 0;
+		System.out.println(oldMemberIndex);
+		oldMember[oldMemberIndex++] = member[index];
+		System.out.println(oldMemberIndex);*/
+		String team[][] = new String[5][5];
+		String member[] = new String[]{"111","222","333","444","555","a","b","c","d","e","f","g","h","i","j","k","l","n","m","o","p","q","r","s","t"};
+		
+		int index = -1;
+		
+		for(int i=0;i<team.length;i++) {
+			index = (int)(Math.random()*5);
+			team[i][0] = member[index];
+			
+			for(int j=0;j<i;j++) {
+				if(team[j][0]==member[index]) {
+					i--;
+					break;
+				}
+				
+			}
+			
+		}
+		
+		
+		String oldMember[] = new String[20];
+		int teamIndex = 0;
+		int oldMemberIndex = 0;
+		index = -1;
+		
+		for(;;) {
+			
+		for(int j=1;j<team[teamIndex].length;j++) {
+			index = (int)(Math.random()*20)+5;
+			team[teamIndex][j] = member[index];
+			oldMember[oldMemberIndex++] = member[index];
+			
+			for(int a=0;a<oldMemberIndex-1;a++) {
+				if(oldMember[a]==member[index]) {
+					j--;
+					oldMemberIndex--;
+					break;
+				}
+			}
+		
+		}
+		if(teamIndex<4) {
+			teamIndex++;
+			
+		}
+		else {
+			break;
+		}
+		}
+		for(int i=0;i<team.length;i++) {
+			System.out.println("ÆÀÀå :" +team[i][0]);
+			System.out.print("ÆÀ¿ø :");
+			for(int j=1;j<team[i].length;j++) {
+				System.out.print((j==1) ? team[i][j] : ","+team[i][j]);
+			}
+			System.out.println();
+		}
+		
 	}
 
 }

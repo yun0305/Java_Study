@@ -26,7 +26,10 @@ public class FlowTest10 {
 			 i++;
 		 }
 		 System.out.println("гую╨="+sum);
+		 
 	}
+	
+	
 	public static void FlowTest10() {
 		int sum = 0;
 		String exp = "";
@@ -44,6 +47,7 @@ public class FlowTest10 {
 		System.out.println(exp+"="+sum);
 	}
 
+	
 	public static void main(String[] args) {
 		
 		int num1 = 0;
