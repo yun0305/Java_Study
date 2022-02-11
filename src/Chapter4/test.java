@@ -78,7 +78,7 @@ public class test {
 		System.out.println(oldMemberIndex);
 		oldMember[oldMemberIndex++] = member[index];
 		System.out.println(oldMemberIndex);*/
-		String team[][] = new String[5][5];
+		/*String team[][] = new String[5][5];
 		String member[] = new String[]{"111","222","333","444","555","a","b","c","d","e","f","g","h","i","j","k","l","n","m","o","p","q","r","s","t"};
 		
 		int index = -1;
@@ -134,8 +134,19 @@ public class test {
 				System.out.print((j==1) ? team[i][j] : ","+team[i][j]);
 			}
 			System.out.println();
+		}*/
+		
+		
+		
+		while(true) {
+			int leader = (int)(Math.random()*5);
+			if(leader==3) {
+			System.out.println(leader);
+			break;
+			}
 		}
+			
+		
 		
 	}
-
-}
+	}

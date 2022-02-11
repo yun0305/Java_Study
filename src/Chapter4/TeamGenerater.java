@@ -43,7 +43,7 @@ public class TeamGenerater {
 			String member[] = new String[] {"팀장1","팀장2","팀장3","팀장4","팀장5","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19"
 					,"20","21","22","23","24","25"};
 			String team[][] = new String[5][6];
-			int index = -1;
+			int index = -1;//배열인덱스로 들어가는건 겹치지않도록 되로록이면 -1로 초기화 시켜주자
 			
 			for(int i=0;i<5;i++) {
 				index = (int)(Math.random()*5);
@@ -119,6 +119,8 @@ public class TeamGenerater {
 			int teamindex = 0;
 			int oldmemberindex = 0;
 			index = -1;
+			
+			
 			for(;;) {
 			for(int i=1;i<team[teamindex].length;i++) {
 				index = (int)(Math.random()*20)+5;
@@ -126,7 +128,7 @@ public class TeamGenerater {
 				oldmember[oldmemberindex++] = teammember[index];
 				
 				for(int a=0;a<oldmemberindex-1;a++) {
-					if(team[teamindex][a]==teammember[index]) {
+					if(oldmember[a]==teammember[index]) {
 						i--;
 						oldmemberindex--;
 						break;
@@ -144,7 +146,7 @@ public class TeamGenerater {
 			else {
 				break;
 			}
-			
+			}
 			for(int i=0;i<team.length;i++) {
 				System.out.println("팀장 :" +team[i][0]);
 				System.out.print("팀원 :");
@@ -153,12 +155,12 @@ public class TeamGenerater {
 				}
 				System.out.println();
 			}
-			}
+			
 		}
 		public static void main(String[] args) {
 	
-			//TeamGeneraterOther0();
-			TeamGenerater();
+			TeamGeneraterOther0();
+			//TeamGenerater();
 			
 	}
 }
