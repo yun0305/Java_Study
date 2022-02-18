@@ -22,7 +22,7 @@ public class DayCountOfMonth {
 			daycount = 30;
 			break;
 		case 2:
-			if(year%4==0&&year%100==0||year%400==0) {
+			if(year%4==0&&year%100!=0||year%400==0) {
 				daycount = 29;
 			}
 			else {
