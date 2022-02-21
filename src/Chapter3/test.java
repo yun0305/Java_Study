@@ -48,5 +48,6 @@ public class test {
 		for(long i=0;i<10000;i++) {
 			System.out.print(0);
 		}
+		System.out.println("git test");
 }
 }
