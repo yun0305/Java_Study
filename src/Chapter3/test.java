@@ -45,10 +45,8 @@ public class test {
 		//for(int i = 0; i<=5; i++) {
 		//System.out.println(i);
 		//}
-		
-		double num = 1;
-		System.out.println(num%5);
-	
-	}
-
+		for(long i=0;i<10000;i++) {
+			System.out.print(0);
+		}
+}
 }

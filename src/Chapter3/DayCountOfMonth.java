@@ -8,7 +8,7 @@ public class DayCountOfMonth {
 		Scanner scan = new Scanner(System.in);
 		
 		
-		
+		do {
 		int year = scan.nextInt();
 		int month = scan.nextInt();
 		int daycount = 0;
@@ -40,7 +40,8 @@ public class DayCountOfMonth {
 		else {
 			System.out.println("잘못된 입력 값입니다");
 		}
-		
+		}
+		while(true);
 	}
 
 }
