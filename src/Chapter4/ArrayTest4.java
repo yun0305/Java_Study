@@ -27,7 +27,7 @@ public class ArrayTest4 {
 			}
 				System.out.println("해당이름은 없습니다");
 			
-			
+				
 		}while(true);
 	}
 	

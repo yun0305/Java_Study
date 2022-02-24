@@ -29,7 +29,6 @@ public class ArrayTest1 {
 		int[] intarray = new int[] {1,2,3,4};
 		int[] intarray2 = {1,2,3,4};
 		
-		
 	}
 
 }
