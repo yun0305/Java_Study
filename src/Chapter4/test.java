@@ -138,15 +138,9 @@ public class test {
 		
 		
 		
-		while(true) {
-			int leader = (int)(Math.random()*5);
-			if(leader==3) {
-			System.out.println(leader);
-			break;
-			}
-		}
+		int randomRotto = (int)(Math.random()*10)+1;
 			
-		
+		System.out.println(randomRotto);
 		
 	}
 	}
