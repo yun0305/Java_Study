@@ -1,5 +1,7 @@
 package Chapter3;
 
+import java.util.Scanner;
+
 public class CalcTestBySwitch {
 
 	public static void main(String[] args) {
@@ -35,16 +37,16 @@ public class CalcTestBySwitch {
 			System.out.println("당신의 입력값은 틀렸습니다");
 		}*/
 		
-		int num1 = Integer.parseInt(args[0]);
-		String operation = args[1];
-		int num2 = Integer.parseInt(args[2]);
-		
+		Scanner scan = new Scanner(System.in);
+		int num1 = scan.nextInt();
+		String operation = scan.next();
+		int num2 = scan.nextInt();
 		int result = 0;
 		boolean rightoperation = true;
 		
-		switch(operation) {
+		switch(operation){
 		case "+":
-			result=num1+num2;
+			result = num1+num2;
 			break;
 		case "-":
 			result = num1-num2;
@@ -55,19 +57,10 @@ public class CalcTestBySwitch {
 		case "/":
 			result = num1/num2;
 			break;
-			default:
+			default :
 				rightoperation = false;
-				break;
-					
 		}
-		
-		if(rightoperation) {
-			System.out.println(num1 + operation +num2 + "=" + result);
-		}
-		else {
-			System.out.println("연산자가 잘못 되어 있습니다");
-		}
-		
+		System.out.println(num1+operation+num2+" = "+ result);
 	}
 
 }
