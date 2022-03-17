@@ -138,9 +138,10 @@ public class test {
 		
 		
 		
-		int randomRotto = (int)(Math.random()*10)+1;
-			
-		System.out.println(randomRotto);
+		
+		int num[][] = new int[5][6];
+		System.out.println(num.length);
+		System.out.println(num[1].length);
 		
 	}
 	}

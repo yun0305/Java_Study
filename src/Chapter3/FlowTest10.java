@@ -50,14 +50,14 @@ public class FlowTest10 {
 	
 	public static void main(String[] args) {
 		
-		int num1 = 0;
-		String exq = "";
+		int num = 0;
+		String exp = "";
 		
-		for(int i=0;i<=50;i++) {
-			num1 += i;
-			exq += (num1==0)? ""+i:"+"+i;
+		for(int i=1;i<=50;i++) {
+			num+=i;
+			exp += (i==1)? ""+i:"+"+i;
 		}
-		System.out.println(exq+"="+num1);
+		System.out.println(exp+"="+num);
 	}
 
 }

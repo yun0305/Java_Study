@@ -45,9 +45,14 @@ public class test {
 		//for(int i = 0; i<=5; i++) {
 		//System.out.println(i);
 		//}
-		for(long i=0;i<10000;i++) {
-			System.out.print(0);
-		}
-		System.out.println("git test");
+		int num = 3;
+		
+				
+											//if(num<=5) 이런식으로 안한 이유는 1에서5까지만 출력이되고 26 까지 출력 되야되는데 불가능함
+				System.out.println(num%3);
+				
+			}
+			
+		
 }
-}
+

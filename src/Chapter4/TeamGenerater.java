@@ -56,14 +56,15 @@ public class TeamGenerater {
 				}
 			}
 			
-			String oldMember[] = new String[25];//71번 줄에 비교문을위해서 만들어준것이다
+			String oldMember[] = new String[25];//71번 줄에 비교문을위해서 만들어준것이다//25개의 방을 만들어준이유는 팀원이 25명이 다들어가니까
+			int oldMemberIndex = 0;
 			index = -1;
 			int teamIndex = 0;//67번 for문이 끝나면 
-			int oldMemberIndex = 0;
+			
 			
 			for(;;) {
 				
-				for(int j=1;j<team[teamIndex].length;j++) { //j=1
+				for(int j=1;j<team[teamIndex].length;j++) { //j=1//team[teamIndex].length에 teamindex는0,1,2,3,4까지 돈다 0일때는 0번째 팀원들을 넣고 1일때는 1번째 팀원들을 넣는다//team[teamIndex].length를 풀이 해보면 6이 나온다 
 					index = (int)(Math.random()*25)+5;//할당30개 랜덤
 					team[teamIndex][j] = member[index];//[0][1]에 3 할당
 					oldMember[oldMemberIndex++] = member[index];//1에서 2가됨
@@ -159,8 +160,8 @@ public class TeamGenerater {
 		}
 		public static void main(String[] args) {
 	
-			TeamGeneraterOther0();
-			//TeamGenerater();
+			//TeamGeneraterOther0();
+			TeamGenerater();
 			
 	}
 }
