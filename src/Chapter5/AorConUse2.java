@@ -28,7 +28,7 @@ public class AorConUse2 {
 		System.out.println("aircon2.temp = "+airCon2.temp+", airCon2.color = "+airCon2.color+", airCon2.price = "+airCon2.price+"원"+"\n");
 		
 		
-		//airCon2 변수에 aircon1 변수 참조 값 할당
+		//airCon2 변수에 airon1 변수 참조 값 할당
 		airCon2 = airCon1;
 		System.out.println("aircon2.temp = "+airCon2.temp+", airCon2.color = "+airCon2.color+", airCon2.price = "+airCon2.price+"원"+"\n");
 		
