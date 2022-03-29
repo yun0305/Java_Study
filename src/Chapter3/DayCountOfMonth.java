@@ -60,7 +60,7 @@ public class DayCountOfMonth {
 			break;
 			
 		case 2:
-			result = (year%4==0 && year%100 != 1 || year%400 ==0)? 29:28;
+			result = (year%4==0 && year%100 != 0 || year%400 ==0)? 29:28;
 			break;
 			default :
 				rightoperation  = false;
