@@ -17,7 +17,7 @@ public class VariableArgument {
 		
 		VariableArgument vt = new VariableArgument();
 		
-		System.out.print("인자가 없을때 :");
+		System.out.print("인자가 없을때 :"); 
 		vt.printinfo();
 		
 		System.out.println();

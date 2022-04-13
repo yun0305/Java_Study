@@ -24,7 +24,7 @@ public class AorConUse2 {
 		
 		//두번째 객체 생성
 		Aircon airCon2 = new Aircon();
-		
+		airCon2.uptemp();
 		System.out.println("aircon2.temp = "+airCon2.temp+", airCon2.color = "+airCon2.color+", airCon2.price = "+airCon2.price+"원"+"\n");
 		
 		

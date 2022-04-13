@@ -3,7 +3,7 @@ package Chapter5;
 public class Args {
 	int x;
 	
-	void add(int x) {//메소드 명이 같더라도 인자 값의 개수가 다르면 다른 변수로 취급한다
+	void add(int x) {//메소드 명이 같더라도 인자 값의 개수가 다르면 다른 함수로 취급한다
 		x = x+50;
 	}
 	void add(Args arg) {
@@ -12,6 +12,7 @@ public class Args {
 	}
 	void addnew(Args arg) {
 		arg = new Args();
+	
 		
 	}
 	void add(int[] arr) {
@@ -20,6 +21,7 @@ public class Args {
 	}
 	public static void main(String[] args) {
 			Args arg = new Args();
+			
 			arg.x = 100;
 			int arr[] = new int[1];
 		

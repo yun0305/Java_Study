@@ -139,9 +139,17 @@ public class test {
 		
 		
 		
-		int num[][] = new int[5][6];
+		/*int num[][] = new int[5][6];
 		System.out.println(num.length);
-		System.out.println(num[1].length);
+		System.out.println(num[0].length);
+		*/
 		
-	}
+		while(true) {
+			int random = (int)(Math.random()*25);
+			if(random==0) {
+		System.out.println(random);
+			break;
+			}
+		}
+		}
 	}
