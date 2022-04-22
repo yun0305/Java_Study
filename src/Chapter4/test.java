@@ -1,9 +1,15 @@
 package Chapter4;
 
+
 import java.util.Arrays;
 
 public class test {
 
+	public test() {
+		System.out.println("gkgkgkg");
+	}
+	
+	
 	public static void main(String[] args) {
 		//////////////////////////////////////////////
 		/*int[][] array = {{1}, {2,3}, {4,5,6}};// 2차원 배열의 방개수는 가변적으로 만들수 있다
@@ -144,12 +150,13 @@ public class test {
 		System.out.println(num[0].length);
 		*/
 		
-		while(true) {
+		/*while(true) {
 			int random = (int)(Math.random()*25);
 			if(random==0) {
 		System.out.println(random);
 			break;
 			}
-		}
+		}*/
+		test te = new test();
 		}
 	}
