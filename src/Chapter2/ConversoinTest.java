@@ -13,7 +13,7 @@ public class ConversoinTest {
 		int var_int1 = var_byte1;
 		System.out.println("var int1 = "+var_int1);
 		
-		//큰타입의 값을 작은 타입의 변수에 할당
+		//큰타입의 값을 작은 타입의 변수에 할당 
 		int var_int2 = 100;
 		byte var_byte2 = (byte)var_int2;//명시적으로 형변환 해주지 않으면 컴파일 오류발생
 		System.out.println("var_byte2 = "+var_byte2);
