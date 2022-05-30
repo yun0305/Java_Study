@@ -28,7 +28,7 @@ public class ConversoinTest {
 		byte var_byte4 = 40;
 		byte var_result1 = (byte)(var_byte3+var_byte4);//int 형보다 작은 타입의 번수의 값을 연산해서 할당하려면 명시적으로 형번환 해야야함
 		
-		char var_char2='A';
+		char var_char2 = 'A';
 		int var_int_result1 = var_char2+1;
 		System.out.println("var_int_result1 = "+var_int_result1);
 		

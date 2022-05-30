@@ -37,30 +37,36 @@ public class CalcTestBySwitch {
 			System.out.println("당신의 입력값은 틀렸습니다");
 		}*/
 		
-		Scanner scan = new Scanner(System.in);
-		int num1 = scan.nextInt();
-		String operation = scan.next();
-		int num2 = scan.nextInt();
+		Scanner scn = new Scanner(System.in);
+		int num1 = scn.nextInt();
+		String operation = scn.next();
+		int num2 = scn.nextInt();
 		int result = 0;
 		boolean rightoperation = true;
 		
-		switch(operation){
+		switch(operation) {
 		case "+":
-			result = num1+num2;
+			result=num1+num2;
 			break;
 		case "-":
-			result = num1-num2;
+			result=num1+num2;
 			break;
 		case "X":
-			result = num1*num2;
+			result=num1+num2;
 			break;
 		case "/":
-			result = num1/num2;
+			result=num1+num2;
 			break;
 			default :
 				rightoperation = false;
 		}
-		System.out.println(num1+operation+num2+" = "+ result);
+		if(rightoperation) {
+			System.out.println(result);
+		}
+		else {
+			System.out.println("연산자를 다시 입력 하세요");
+		}
+		
 	}
 
 }

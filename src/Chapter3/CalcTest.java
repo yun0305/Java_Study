@@ -6,8 +6,6 @@ public class CalcTest {
 
 	public static void main(String[] args) {
 		
-		
-		
 		/*int num1 = Integer.parseInt(args[0]);//좌측 피연산자를 넣어주는 구간
 		String operation = args[1];//연산자를 넣어주는 구간
 		int num2 = Integer.parseInt(args[2]);// 우측 피연산자를 넣어주는 구간
