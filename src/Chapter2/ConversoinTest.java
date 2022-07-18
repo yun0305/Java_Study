@@ -19,7 +19,7 @@ public class ConversoinTest {
 		System.out.println("var_byte2 = "+var_byte2);
 		
 		//char¿Í short
-		short var_short1 = 200;
+		short var_short1 = 65;
 		char var_char1 = (char)var_short1;
 		System.out.println("var_char1 = "+var_char1);
 		

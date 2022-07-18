@@ -36,21 +36,18 @@ public class CalcTest {
 		}*/
 		
 		Scanner scan = new Scanner(System.in);
-		int result = 0;
 		int num1 = scan.nextInt();
 		String operation = scan.next();
 		int num2 = scan.nextInt();
 		boolean rightoperation = true;
-		
-		
-		
+		int result = 0;
 		if(operation.equals("+")) {
 			result = num1+num2;
 		}
 		else if(operation.equals("-")) {
 			result = num1-num2;
 		}
-		else if(operation.equals("X")) {		
+		else if(operation.equals("X")) {
 			result = num1*num2;
 		}
 		else if(operation.equals("/")) {
@@ -61,7 +58,7 @@ public class CalcTest {
 		}
 		
 		if(rightoperation) {
-			System.out.println(num1 + operation + num2+" = "+result);
+			System.out.println(result);
 		}
 		else {
 			System.out.println("연산자가 잘못 되었습니다");

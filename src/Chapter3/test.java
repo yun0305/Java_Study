@@ -45,11 +45,9 @@ public class test {
 		//for(int i = 0; i<=5; i++) {
 		//System.out.println(i);
 		//}
-		int num = 3;
+		char signal ='\'';
 		
-				
-											//if(num<=5) 이런식으로 안한 이유는 1에서5까지만 출력이되고 26 까지 출력 되야되는데 불가능함
-				System.out.println(num%3);
+		System.out.println(signal);
 				
 			}
 			
